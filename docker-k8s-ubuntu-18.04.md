@@ -67,3 +67,30 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /root/.npm/_logs/2020-09-17T08_16_14_581Z-debug.log
 
 ```
+
+#install nodejs
+```
+sudo apt install nodejs
+sudo apt install npm
+```
+
+#install express
+```
+npm install --save express
+```
+
+#rebuild docker image using the above docker image build command
+#run the docker image in the background this time
+```
+sudo docker run --rm -p 3000:3000 simple-node &
+```
+
+#list the running container
+```
+sudo docker container ls
+```
+
+#test the running server by hitting it
+```
+curl "http://localhost:3000"
+```
