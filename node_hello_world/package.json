@@ -1,0 +1,10 @@
+{
+    "name" : "simple-node",
+    "version": "1.0.0",
+    "description": "A simple appl for docker & k8s",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "mayur_kankanwadi@persistent.co.in"
+}
