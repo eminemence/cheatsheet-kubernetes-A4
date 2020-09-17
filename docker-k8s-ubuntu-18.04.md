@@ -12,7 +12,7 @@ sudo systemctl enable docker
 ```
 docker --version
 ```
-# Create the simple-node files in the following order
+## Create the simple-node files in the following order
 ```
 package.json
 server.js
@@ -33,7 +33,7 @@ sudo docker image ls
 ```
 sudo docker run --rm -p 3000:3000 simple-node
 ```
-# Got this error on running above command
+## Got this error on running above command
 ```
 
 > simple-node@1.0.0 start /usr/src/app
